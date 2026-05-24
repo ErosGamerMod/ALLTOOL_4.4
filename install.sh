@@ -41,7 +41,7 @@ echo -e "\n${CIANO}[*] Baixando a versão mais recente do servidor...${RESET}"
 rm -f erosskin
 
 # Faz o download mostrando barra de progresso hacker
-curl -L -o tool "https://github.com/ErosGamerMod/ALLTOOL_4.4/raw/refs/heads/main/tool
+curl -L -o tool "https://github.com/ErosGamerMod/ALLTOOL_4.4/raw/refs/heads/main/tool"
 
 if [ -f "tool" ]; then
     chmod +x tool
